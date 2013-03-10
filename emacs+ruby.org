@@ -4,18 +4,25 @@
 ** Prerequisites
    First things first. I expect you to already be an emacs user. This
    is not an emacs tutorial. Second, the tools and code give in this
-   book are only guaranteed to work on emacs 24 and higher. Third,
-   this isn't a book on rails. This book will cover general ruby programming.
+   book are only guaranteed to work on emacs 24 and higher. Lastly,
+   this isn't a book on rails. This book will cover general ruby
+   programming.
 ** Yukihiro Matsumoto
    Matz, the creator of ruby, is an emacs user.[fn:1] He mentioned in
    a talk that emacs had a enfluence over the design of ruby.[fn:2]
 ** What we are trying to achieve
 * rvm.el
+  We are going to assume you have rvm and MRI 2.0 installed.
+** eshell
 * ruby-mode
 * Enhanced-Ruby-Mode
 * rcodetools.el
+  gem install rcodetools
+** xmlfiter
 * Testing
 * Magit
+  Although not part of ruby, magit is a great interface to git and is
+  worth learning.
 
 * Footnotes
 
