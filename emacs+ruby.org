@@ -1,9 +1,25 @@
 #+TITLE: Emacs and Ruby
 
 * Intro
+** Prerequisites
+   First things first. I expect you to already be an emacs user. This
+   is not an emacs tutorial. Second, the tools and code give in this
+   book are only guaranteed to work on emacs 24 and higher. Third,
+   this isn't a book on rails. This book will cover general ruby programming.
+** Yukihiro Matsumoto
+   Matz, the creator of ruby, is an emacs user.[fn:1] He mentioned in
+   a talk that emacs had a enfluence over the design of ruby.[fn:2]
+** What we are trying to achieve
 * rvm.el
 * ruby-mode
 * Enhanced-Ruby-Mode
 * rcodetools.el
 * Testing
 * Magit
+
+* Footnotes
+
+[fn:1] http://www.slideshare.net/yukihiro_matz/how-emacs-changed-my-life
+
+[fn:2] Some much that writing ruby-mode in emacs influenced the syntax of ruby
+
