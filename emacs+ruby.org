@@ -15,10 +15,11 @@
   We are going to assume you have rvm and MRI 2.0 installed.
 ** eshell
 * ruby-mode
-* Enhanced-Ruby-Mode
+** Enhanced-Ruby-Mode
 * rcodetools.el
   gem install rcodetools
 ** xmlfiter
+* yasnippet
 * Testing
 * Magit
   Although not part of ruby, magit is a great interface to git and is
