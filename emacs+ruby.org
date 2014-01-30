@@ -11,8 +11,8 @@
    Matz, the creator of ruby, is an emacs user.[fn:1] He mentioned in
    a talk that emacs had a enfluence over the design of ruby.[fn:2]
 ** What we are trying to achieve
-* rvm.el
-  We are going to assume you have rvm and MRI 2.0 installed.
+* rbenv.el
+  We are going to assume you have rbenv and MRI 2.0 installed.
 ** eshell
 * ruby-mode
 ** Enhanced-Ruby-Mode
