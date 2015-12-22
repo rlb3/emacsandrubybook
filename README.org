@@ -26,13 +26,13 @@
   universal interface to all tools. And the ability to tie any text
   based program in to your workflow is a different type of efficiency
   than the vim verity.
-  
+
   But after saying all that it's still a heck of a programmer's
   editor. My main programming language when I started with emacs was
   perl. I have configure emacs to be a comfortable perl programming
   experience for me. This book is my attempt to do that for ruby.
 
-  I find ruby a fasinating language. With familiar things from perl,
+  I find ruby a fascinating language. With familiar things from perl,
   but also things I recognize from lisp and smalltalk. Because I enjoy
   it so much, I want to have the best enviroment for ruby I can in
   emacs.  But this time I plan to record my experice for others.
