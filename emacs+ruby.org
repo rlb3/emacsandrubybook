@@ -19,6 +19,7 @@ brighter; it simply makes everything else vanish.
    Matz, the creator of ruby, is an emacs user.[fn:1] He mentioned in
    a talk that emacs had a enfluence over the design of ruby.[fn:2]
 ** What we are trying to achieve
+
 * rbenv.el
   We are going to assume you have rbenv and MRI 2.0 installed.
 ** eshell
@@ -37,4 +38,4 @@ brighter; it simply makes everything else vanish.
 
 [fn:1] http://www.slideshare.net/yukihiro_matz/how-emacs-changed-my-life
 
-[fn:2] Some much that writing ruby-mode in emacs influenced the syntax of ruby
+[fn:2] So much that writing ruby-mode in emacs influenced the syntax of ruby
