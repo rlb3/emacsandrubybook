@@ -21,13 +21,47 @@ brighter; it simply makes everything else vanish.
 ** What we are trying to achieve
 
 * rbenv.el
-  We are going to assume you have rbenv and MRI 2.0 installed.
+
+  When I first started programming, it was common to use the system
+  ruby. You could download the source for a new ruby version and link
+  the new binaries to a directory in you path. This was fine but if
+  you had more than two extra rubys, this became very cumbersome to
+  deal with.
+
+  Then came the ruby environment managers.
+  - [[https://github.com/rvm/rvm][rvm]]
+  - [[https://github.com/postmodern/chruby][chruby]]
+
+  My favorite is [[https://github.com/rbenv/rbenv][rbenv]]. There is an emacs package for rbenv called
+  [[https://github.com/senny/rbenv.el][rbenv.el]]. rbenv.el lets you use whichever ruby you have in
+  rbenv. Also when =rbenv-use-global= is loaded it will default to the
+  whatever ruby is set as global in rbenv.
+
+  The interactive commands for rbenv.el are:
+
+  - global-rbenv-mode :: use rbenv to configure the ruby version used by your Emacs.
+  - rbenv-use-global :: activate rbenv global ruby
+  - rbenv-use :: choose what ruby you want to activate
+  - rbenv-use-corresponding :: search for .ruby-version and activate the corresponding ruby
+
 ** eshell
 * ruby-mode
-** Enhanced-Ruby-Mode
-* rcodetools.el
-  gem install rcodetools
-** xmlfiter
+* smart-parans
+* Seeing Is Believing
+  [[https://github.com/JoshCheek/seeing_is_believing][github link]]
+
+  #+NAME: Emacs Integration
+  #+BEGIN_SRC elisp
+    (defun seeing-is-believing ()
+      "Replace the current region (or the whole buffer, if none) with the output
+    of seeing_is_believing."
+      (interactive)
+      (let ((beg (if (region-active-p) (region-beginning) (point-min)))
+            (end (if (region-active-p) (region-end) (point-max)))
+            (origin (point)))
+        (shell-command-on-region beg end "seeing_is_believing" nil 'replace)
+        (goto-char origin)))
+  #+END_SRC
 * yasnippet
 * Testing
 * Magit
