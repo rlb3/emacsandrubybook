@@ -19,7 +19,9 @@ brighter; it simply makes everything else vanish.
    Matz, the creator of ruby, is an emacs user.[fn:1] He mentioned in
    a talk that emacs had a enfluence over the design of ruby.[fn:2]
 ** What we are trying to achieve
-
+* Projectile
+  [[http://batsov.com/projectile/][home page]]
+  [[https://github.com/bbatsov/projectile][github link]]
 * rbenv.el
 
   When I first started programming, it was common to use the system
